@@ -1,0 +1,35 @@
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.exe.config
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.exe
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.pdb
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.AssemblyReference.cache
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.SuggestedBindingRedirects.cache
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System.frmBWCLogin.resources
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System.Properties.Resources.resources
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.GenerateResource.cache
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.CoreCompileInputs.cache
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.exe
+D:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.pdb
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.exe.config
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.exe
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.pdb
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.AssemblyReference.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.SuggestedBindingRedirects.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System.frmBWCLogin.resources
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System.Properties.Resources.resources
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.GenerateResource.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.CoreCompileInputs.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.exe
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.pdb
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.exe.config
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.exe
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\bin\Debug\BayWyn-Couriers-System.pdb
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.AssemblyReference.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.SuggestedBindingRedirects.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System_Interface.frmDashboard.resources
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System.frmBWCLogin.resources
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System.Properties.Resources.resources
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.GenerateResource.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.csproj.CoreCompileInputs.cache
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.exe
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System - Copy\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.pdb
+G:\softdev-level6\SoftwareEngineering\Assignment-2\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System_Interface.frmDashboard.resources
