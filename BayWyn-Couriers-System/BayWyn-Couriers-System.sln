@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BayWyn-Couriers-System", "BayWyn-Couriers-System\BayWyn-Couriers-System.csproj", "{835C2271-5B6B-405A-9512-830C369ACC61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BWCTest", "BWCTest\BWCTest.csproj", "{32352395-9128-446E-8B67-8BB07118E62A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{835C2271-5B6B-405A-9512-830C369ACC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835C2271-5B6B-405A-9512-830C369ACC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835C2271-5B6B-405A-9512-830C369ACC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32352395-9128-446E-8B67-8BB07118E62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32352395-9128-446E-8B67-8BB07118E62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32352395-9128-446E-8B67-8BB07118E62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32352395-9128-446E-8B67-8BB07118E62A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

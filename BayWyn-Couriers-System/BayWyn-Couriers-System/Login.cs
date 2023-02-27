@@ -14,12 +14,10 @@ namespace BayWyn_Couriers_System
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-
-
             frmDashboard dashboard = new frmDashboard();
-
 
             //Test logins
 
@@ -67,7 +65,6 @@ namespace BayWyn_Couriers_System
                 this.Hide();
                 dashboard.Show();
                 dashboard.btnAccept.Enabled = true;
-
             }
 
             else
@@ -75,7 +72,6 @@ namespace BayWyn_Couriers_System
                 MessageBox.Show("Invalid username or password", "Invalid");
             }
 
-            
         }
     }
 }
