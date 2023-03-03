@@ -1,4 +1,4 @@
-﻿namespace BayWyn_Couriers_System_Interface
+﻿namespace BayWyn_Couriers_System
 {
     partial class frmDashboard
     {

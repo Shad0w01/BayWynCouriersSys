@@ -1,12 +1,13 @@
-﻿using BayWyn_Couriers_System_Interface;
-using System;
+﻿using System;
 using System.Windows.Forms;
 
 namespace BayWyn_Couriers_System
 {
     public partial class frmBWCLogin : Form
     {
-
+        public string username = string.Empty;
+        public string password = string.Empty;
+        public bool loginSuccess = false;
 
         public frmBWCLogin()
         {
@@ -17,12 +18,27 @@ namespace BayWyn_Couriers_System
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            frmDashboard dashboard = new frmDashboard();
-
+            
+            username = txtUser.Text;
+            password = mtxtPass.Text;
             //Test logins
 
-            if (txtUser.Text == "Jones81" && mtxtPass.Text == "X5fw3Q3!yAt9")
+            var ls = LoginStatus(username, password);
+
+            if (!ls) 
             {
+                MessageBox.Show("Invalid username or password", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        public bool LoginStatus(string user, string pass) 
+        {
+            frmDashboard dashboard = new frmDashboard();
+
+            if (user == "Jones81" && pass == "X5fw3Q3!yAt9")
+            {
+
                 this.Hide();
                 dashboard.Show();
 
@@ -33,9 +49,10 @@ namespace BayWyn_Couriers_System
                 dashboard.btnSetDtd.Enabled = true;
                 dashboard.btnCancel.Enabled = true;
                 dashboard.btnViewReport.Enabled = true;
+                loginSuccess = true;
             }
 
-            else if (txtUser.Text == "Kapoor72" && mtxtPass.Text == "Nx392R&^f96T")
+            else if (user == "Kapoor72" && pass == "Nx392R&^f96T")
             {
                 this.Hide();
                 dashboard.Show();
@@ -46,10 +63,10 @@ namespace BayWyn_Couriers_System
                 dashboard.btnViewContract.Enabled = true;
                 dashboard.btnCancel.Enabled = true;
                 dashboard.btnViewReport.Enabled = true;
-
+                loginSuccess = true;
             }
 
-            else if (txtUser.Text == "Gavin68" && mtxtPass.Text == "Ce97bQ6$M22Y")
+            else if (user == "Gavin68" && pass == "Ce97bQ6$M22Y")
             {
                 this.Hide();
                 dashboard.Show();
@@ -58,20 +75,18 @@ namespace BayWyn_Couriers_System
                 dashboard.btnViewContract.Enabled = true;
                 dashboard.btnCancel.Enabled = true;
                 dashboard.btnViewReport.Enabled = true;
+                loginSuccess = true;
             }
 
-            else if (txtUser.Text == "C01" && mtxtPass.Text == "Fa79^3s2AH5T")
+            else if (user == "C01" && pass == "Fa79^3s2AH5T")
             {
                 this.Hide();
                 dashboard.Show();
                 dashboard.btnAccept.Enabled = true;
+                loginSuccess = true;
             }
-
-            else
-            {
-                MessageBox.Show("Invalid username or password", "Invalid");
-            }
-
+            return loginSuccess;
         }
     }
 }
+

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace BayWyn_Couriers_System_Interface
+namespace BayWyn_Couriers_System
 {
     public partial class frmDashboard : Form
     {
