@@ -11,10 +11,5 @@ namespace BayWyn_Couriers_System
         }
 
 
-
-        private void frmDashboard_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
