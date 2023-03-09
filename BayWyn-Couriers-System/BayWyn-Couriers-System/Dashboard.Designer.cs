@@ -167,7 +167,7 @@
             this.Controls.Add(this.btnNewCon);
             this.Name = "frmDashboard";
             this.Text = "BayWyn Couriers Dashboard";
-            //this.Load += new System.EventHandler(this.frmDashboard_Load);
+            this.Load += new System.EventHandler(this.frmDashboard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

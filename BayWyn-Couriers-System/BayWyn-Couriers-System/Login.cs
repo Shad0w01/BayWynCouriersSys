@@ -1,6 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
-
 namespace BayWyn_Couriers_System
 {
     public partial class frmBWCLogin : Form
@@ -15,29 +15,26 @@ namespace BayWyn_Couriers_System
 
         }
 
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            
+
             username = txtUser.Text;
             password = mtxtPass.Text;
-            //Test logins
 
             var ls = LoginStatus(username, password);
 
-            if (!ls) 
+            if (!ls)
             {
                 MessageBox.Show("Invalid username or password", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
 
-        public bool LoginStatus(string user, string pass) 
+        public bool LoginStatus(string user, string pass)
         {
             frmDashboard dashboard = new frmDashboard();
 
-            string[] cUser = { "C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08", "C09", "C10" };
-            string[] cPass = { cUser[0] = "Fa79^3s2AH5T", cUser[1] = "7b96CY#ykCW4", cUser[2] = "wR3!3WEAcC9c", cUser[3] = "m3M%9K537rnQ", cUser[4] = "75sK$7e4BwEy", cUser[5] = "3n3DU8A^CPeJ", cUser[6] = "6Z2y8zh!eT6V", cUser[7] = "aC75S65*7P%!", cUser[8] = "c6H83*r5MEJh", cUser[9] = "Jq69J5^z3jkg" };
+
 
             if (user == "Jones81" && pass == "X5fw3Q3!yAt9")
             {
@@ -84,17 +81,41 @@ namespace BayWyn_Couriers_System
                 loginSuccess = true;
             }
 
+            var u = user;
+            var p = pass;
+            var login = Couriers(u, p);
 
-            else if (user == cUser.ToString() && pass == cPass.ToString())
-            {
-                this.Hide();
-                dashboard.Show();
-
-                dashboard.btnAccept.Enabled = true;
-
-                loginSuccess = true;
-            }
             return loginSuccess;
+        }
+
+        private bool Couriers(string u, string p)
+        {
+
+            CourierUsers users = new CourierUsers();
+
+            List<CourierUsers> cUsers = new List<CourierUsers>() { new CourierUsers { UName = "C01", PWord = "Fa79^3s2AH5T"}, new CourierUsers { UName = "C02", PWord = "7b96CY#ykCW4"},
+            new CourierUsers { UName = "C03", PWord ="wR3!3WEAcC9c"}, new CourierUsers { UName = "C04", PWord = "m3M%9K537rnQ"}, new CourierUsers { UName = "C05", PWord = "75sK$7e4BwEy"},
+            new CourierUsers { UName = "C06", PWord = "3n3DU8A^CPeJ"}, new CourierUsers { UName = "C07", PWord = "6Z2y8zh!eT6V"}, new CourierUsers { UName = "C08", PWord = "aC75S65*7P%!"},
+            new CourierUsers { UName = "C09", PWord = "c6H83*r5MEJh"}, new CourierUsers { UName = "C10", PWord = "Jq69J5^z3jkg"} };
+
+            var ls = false;
+
+            foreach (var user in cUsers)
+            {
+
+                if (u == user.UName && p == user.PWord)
+                {
+                    this.Hide();
+                    frmDashboard dashboard = new frmDashboard();
+                    dashboard.Show();
+                    dashboard.btnAccept.Enabled = true;
+
+                    ls = true;
+                    loginSuccess = true;
+                    break;
+                }
+            }
+            return ls;
         }
     }
 }

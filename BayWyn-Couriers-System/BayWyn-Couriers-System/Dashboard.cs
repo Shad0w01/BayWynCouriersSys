@@ -10,6 +10,9 @@ namespace BayWyn_Couriers_System
             InitializeComponent();
         }
 
+        private void frmDashboard_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }

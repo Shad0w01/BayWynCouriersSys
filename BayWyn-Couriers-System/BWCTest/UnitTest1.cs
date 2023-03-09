@@ -1,6 +1,5 @@
 ﻿using BayWyn_Couriers_System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Windows.Forms;
 namespace BWCTest
 {
     [TestClass]
@@ -10,18 +9,18 @@ namespace BWCTest
         public void TestMethod1Login()
         {
             frmBWCLogin Log = new frmBWCLogin();
-            
+
             // Arrange
 
             bool Expected = true;
 
-            // Act
+        // Act
 
-            // Success: var result = Log.LoginStatus("C01", "Fa79^3s2AH5T");
+        Success: var result = Log.LoginStatus("Jones81", "X5fw3Q3!yAt9");
 
             // Assert
 
-            //Assert.AreEqual(Expected, result);
+            Assert.AreEqual(Expected, result);
         }
     }
 }

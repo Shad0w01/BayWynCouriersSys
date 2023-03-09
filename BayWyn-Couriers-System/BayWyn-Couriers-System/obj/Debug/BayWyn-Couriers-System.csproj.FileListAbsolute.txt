@@ -57,3 +57,7 @@ G:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayW
 G:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.exe
 G:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn-Couriers-System.pdb
 D:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayWyn-Couriers-System\BayWyn-Couriers-System\obj\Debug\BayWyn_Couriers_System.frmDashboard.resources
+D:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWynCouriersDatabase.mdf
+D:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWynCouriersDatabase_log.ldf
+G:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWynCouriersDatabase.mdf
+G:\softdev-level6\SoftwareEngineering\Assignment-2\GitHub\BayWynCouriersSys\BayWyn-Couriers-System\BayWyn-Couriers-System\bin\Debug\BayWynCouriersDatabase_log.ldf
